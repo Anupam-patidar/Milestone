@@ -1,0 +1,365 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+header{
+    background: url(assets/background.png);
+    height:100vh;
+    width: 100%;
+    background-size:cover;
+    color: white;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.header-line{
+    display: flex;
+    /* margin:70px 30px; */
+    padding: 30px 55px  0 105px;
+    align-items: center;
+}
+.header-line .Brand-name{
+    font-size: xx-large;
+    font-weight: bold;
+    width: 300px;
+}
+.header-line ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    width: 700px;
+}
+.header-line .get-btn{
+     background-color: #5681f8;
+     padding: 10px 40px;
+     border-radius: 5px;
+}
+
+
+.hero{
+    display: flex;
+    margin: 40px 105px;
+    /* height: 100vh; */
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.hero-left{
+    width: 100%;
+    align-self: flex-end;
+    margin-bottom: 60px;
+    
+
+}
+.hero-left .btn{
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin: 30px 0;
+    background-color: #5681f8;
+    border: none;
+    color: white;
+}
+
+.hero-left .btn-2{
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin: 30px 0;
+    border: 1px solid white;
+    background:transparent;
+    color: white;
+}
+
+
+
+
+
+ .hero-form form{
+  display: flex;
+  flex-direction: column;
+  margin: 40px 80px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 20px 20px;
+  
+ }
+ .hero-form form label {
+    margin-top: 20px;
+    color: #474545;
+ }
+ .hero-form form input,select  {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px -4px;
+    padding: 12px 10px;
+    margin: 10px;
+    width: 200px;
+    
+ }
+ .hero-form form .appoin-btn{
+    background-color: #5681f8;
+    color: white;
+
+ }
+
+ /* <!-- ------------hospital specialization---------- --> */
+
+ .lead {
+    text-align: center;
+    margin: 100px;
+    
+ }
+ .lead h2{
+    font-size: xx-large;
+    color: #2d2c2c;
+    margin: 20px;
+ }
+ .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px ;
+    margin-bottom: 180px;
+           
+ }
+
+ .card1{
+    border: 1px solid #96c7e7;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: fit-content;
+    padding-bottom: 20px;
+    min-height: 300px;
+ }
+ .card1 .case{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #96c7e7;
+    color: white;
+    
+
+ }
+ .card1 .case i{
+    background-color: white;
+    color: #96c7e7;
+    padding: 20px;
+    border-radius: 50%;
+ }
+ .card1 ul{
+    margin: 20px;
+    color: #615e5e;
+     line-height: 25px;
+ }
+ .card1 a{
+    color: #41b3cc;
+    margin: 50px;
+    text-decoration: none;
+ }
+
+
+
+ /* ------------reviews section----------- */
+
+ .user-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    
+ }
+ .review{
+    max-width: 250px;
+    padding: 20px;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px -4px;
+
+ }
+ .review .rating{
+  color: gold;
+  margin: 30px 20px;
+
+ }
+
+
+
+ /* ..............FAQS-SECTION........... */
+ 
+ .faqs-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 70px;
+ }
+ .faqs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    gap: 40px;
+
+ }
+
+ .comments{
+    max-width: 300px;
+    padding: 20px;
+ }
+ .sign{
+    display: flex;
+    gap: 10px;
+    
+ }
+ .sign i{
+    color: #41b3cc;
+ }
+
+
+
+ /* =========pricing section========= */
+ 
+ .price-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+ }
+ .p-card{
+    max-width: 300px;
+    border: 1px solid #5681f8;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 13px;
+    border-radius: 5px;
+ }
+ .p-card .quality{
+    font-size: xx-large;
+    font-weight: bold;
+
+ }
+
+ .p-card .perks {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+ }
+
+ .p-card .perks i{
+    background-color: #38f238e0;
+    padding: 10px;
+    border-radius: 50%;
+ }
+
+ .p-card button{
+    background-color: #5681f8;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+ }
+ .p-card:hover{
+    background-color: #0f1b3dec;
+    color: white;
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+ }
+
+
+ /* ========subscribe-section=========== */
+
+ .subscribe-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1b3dec;
+    height: 250px;
+    color: white;
+    margin-top: 50px;
+ }
+ .subscribe-sec .inTouch{
+    max-width: 450px;
+
+ }
+ .sub-sec{
+    background-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+ }
+ .sub-sec input{
+    padding: 15px 20px;
+    margin: 0; 
+    border: none;       
+
+ }
+ .sub-sec button{
+    background-color: #5681f8;
+    padding: 18px 20px;
+    margin: 0;  
+    border: none;  
+    color: white;    
+
+ }
+
+
+ /* -------footer-section--------- */
+
+ footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+ }
+
+ .social{
+    max-width: 200px;
+    /* margin: 50px; */
+           
+ }
+ .head{
+    font-size: x-large;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+.social-icons{
+    color:#5681f8;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    
+}
+.com-info{
+    max-width: 200px;
+    
+    
+}
+.Feature{
+    margin-left: 35px;
+    margin-top: 75px;
+
+}
+.com-info ul li{
+    list-style-type: none;
+    padding: 10px 0;
+    color: #615e5e;
+    
+}
+.end{
+    color: #615e5e;
+    margin: 70px;
+    text-align: center;
+}
+

@@ -1,0 +1,260 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 0 40px;
+}
+.menu-icon{
+    display: none;
+}
+ .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    color: #767575;
+          
+}
+.sign-up{
+    border: 2px solid gray;
+    border-radius: 5px;
+    align-self: center;
+    padding: 10px 20px;
+
+}
+.user-profile{
+    display: none;
+}
+
+/*......... hero-section .........*/
+
+.hero{
+    display: flex;
+    padding: 70px 40px;
+     }
+     
+
+     
+.hero .left .intro{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 420%;
+    text-transform: uppercase;
+    padding: 60px 0 0 0;
+    margin: 0;
+
+}
+.para{
+    color: #767575;
+    border-left: 2px solid gray;
+    padding: 20px 10px;
+}
+.btn-section{
+    display: flex;
+    align-items: center;
+}
+.btn-sec{
+    display: none;
+    
+}
+ .start-btn{
+    background-color:orangered;
+    border:1px solid orangered ;
+    padding: 10px 30px;
+    color: white;
+    margin: 10px;
+ }
+ .btn-arrow{
+    display: flex;
+    
+    align-items: center;
+    gap: 70px;
+ }
+
+  .curve-arrow {
+  width: 100px; 
+  margin-top:90px;
+ }
+ .right{
+    display: grid;
+    margin: 20px 0 0 80px;
+
+ }
+ .orange-arrow{
+    position: relative;
+    top: 10px;
+ }
+ .main-img-bg{
+    position: relative;
+    top: 10px;
+ }
+ .main-img-pattern{
+    position: absolute;
+    top: 180px;
+    left: 790px;
+
+ }
+ .main-image{
+    position: absolute;
+    width: 250px;
+    top: 290px;
+    right: 330px;
+
+ }
+ .circle{
+    position: absolute;
+    right: 180px;
+    bottom: 80px;
+ }
+
+
+
+ /* --------footer-------- */
+
+ .footer{
+    background-color: rgba(4, 8, 45, 0.86);
+    display: flex;
+    
+    padding: 10px 50px ;
+    align-items: center;
+    color: white; 
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 50px;
+
+
+ }
+ .one-specify{
+    font-size: xx-large;
+    font-weight: 500;
+ }
+  
+ .vectore1{
+    background-color: rgb(39, 149, 112);
+    padding: 7px;
+    border-radius: 4px; 
+
+}
+.vectore2{
+    background-color: rgb(195, 109, 51);
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+.vectore3{
+    background-color: rgb(41, 82, 188);
+    padding: 7px ;
+    border-radius: 4px;
+}
+.specialize{
+         font-family: Verdana, Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+        font-size: x-large;
+        text-transform: uppercase;
+    }
+
+
+
+@media screen and (max-width: 600px) {
+
+    header{
+        padding: 5px;
+        justify-content: space-around;
+    }
+    .menu ul{
+        display:none;
+    }
+    .menu-icon , .user-profile{
+        display: block;
+    
+    }
+
+    header .logo{
+        justify-self: center;
+        padding-left: 50px;
+        
+    }
+    .sign-up{
+        display: none;
+    }
+
+
+    /* -----hero-section in mobile--- */
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        margin: 20px 0;
+    }
+    .main-img-pattern{
+        top:720px;
+        left: 30px;
+    }
+    .main-image{
+        top: 830px;
+        left: 150px;
+    }
+    .pattern{
+        position: absolute;
+        top: -50px;
+        left: 8px;
+    }
+    .circle{
+        bottom: -430px;
+        right: 40px;
+    }
+    .btn-section{
+        display: none;
+    }
+    .btn-sec{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .curve-arrow
+    {
+        width: 70px;
+     margin-top: 0;
+     margin: 0;
+     background-color: blue;
+     
+     
+    }
+ 
+    .btn-arrow{
+        flex-direction: column;
+       
+        max-height: 40px;       
+              
+    }
+
+
+    /* --------footer in mobile -------- */
+
+    .footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px 130px;
+        margin-top: 50px;
+    }
+    .one,.sec,.third,.fourth{
+       text-align: center;
+
+    }
+
+
+    
+    
+}
